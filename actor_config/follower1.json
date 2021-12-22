@@ -1,0 +1,38 @@
+{
+    "NumPeers": 2,
+    "CommitIdx": 0,
+    "Peers": ["8090", "8092"],
+    "CurrentTerm": 2,
+    "Logs": [
+        {
+            "Term": 0,
+            "Index": 1,
+            "Command": "Term 0 Idx 1"
+        },
+        {
+            "Term": 1,
+            "Index": 2,
+            "Command": "Term 1 Idx 1"
+        },
+        {
+            "Term": 1,
+            "Index": 3,
+            "Command": "Term 1 Idx 2"
+        },
+        {
+            "Term": 1,
+            "Index": 4,
+            "Command": "Term 1 Idx 3"
+        },
+        {
+            "Term": 4,
+            "Index": 5,
+            "Command": "Term 4 Idx 4"
+        }
+    ],
+    "Timeout": 5,
+    "Role": "follower",
+    "ID": "8091",
+    "nextindices": [5, 5],
+    "lastlogindices": [0, 0]
+}
